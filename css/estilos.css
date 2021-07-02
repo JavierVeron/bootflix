@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: "BebasNeue";
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+footer {
+    color: #CCCCCC;
+}
+
+footer ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+footer a {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #CCCCCC;
+    text-decoration: underline;
+}
+
+.fondo_header {
+    background-image: url("../images/netflix_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boton_netflix {
+    color: #FFFFFF;
+    background-color: #e50914;
+}
+
+.boton_netflix:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fondo_login {
+    background-color: #000000;
+    opacity: 0.8;
+}
